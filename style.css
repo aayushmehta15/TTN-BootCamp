@@ -1,0 +1,153 @@
+/* Reset */
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+/* header */
+.navbar img{
+    width: 150px;
+    height: 100px;
+}
+
+.navbar button{
+    float: right;
+    width: 100px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top:35px;
+    font-weight: bold;
+    margin-right: 100px;
+    background: #77D862;
+    color: whitesmoke;
+    cursor: pointer;
+}
+/* Side Bar */
+.sidebar{
+    min-width: 150px;
+    padding: 20px;
+    background: #888888;
+    /* height: calc(100vh - 70px); */
+    overflow: hidden;
+}
+
+.sidebar ul li{
+    padding: 10px 0;
+}
+
+.sidebar ul li a{
+    font-size: 1.1rem;
+    color: white;
+}
+.sidebar ul li a:hover{
+    color:darkgreen;
+}
+
+/*Gallery Box*/
+.gallery-boxes{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 40px 0px 110px;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    background: whitesmoke;
+    justify-content: center;
+    font-weight: bold;
+    align-items: center;
+}
+/*Middle portion having text and box */
+.content-image{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.middle-box{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    background: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin: 10px;
+}
+.middle-content{
+    width: calc(100% - 300px);
+    text-align: justify;
+    margin-top: 10px;
+    padding: 0px 150px 0px 0px;
+} 
+/* Form styling */
+.form{
+    display:flex;
+}
+.form div{
+    margin-left: 10px;
+}
+.form input[type="submit"]{
+    margin-top: 30px;
+    
+}
+label{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+input{
+    margin-top: 10px;
+    padding: 10px 16px;
+    border: none;
+    width: 450px;
+    border-radius: 5px;
+    background: whitesmoke;
+}
+
+input[type="submit"]{
+    background: #77D862;
+    color: white;
+    width: fit-content;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+header{
+    background-color: lightblue;
+}
+
+/* Table */
+table{
+    border: 1px solid #e3e3e3;
+    border-collapse: collapse;
+    margin: 5px;
+}
+th,tr,td{
+    border: 1px solid #e3e3e3;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+th{
+    background:orange;
+}
+.table-user label{
+    margin-left: 10px;
+}
