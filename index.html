@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Css basic</title>
+</head>
+<body>
+
+    <h1>Font Properties</h1>
+    <div class="font-container">
+    <h3>Font-Family Property</h3>
+    <p class="font-family-property-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, iste? Necessitatibus ex dolorem, consectetur omnis illum doloribus exercitationem optio.</p>
+    <p class="font-family-property-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, iste? Necessitatibus ex dolorem, consectetur omnis illum doloribus exercitationem optio.</p>
+    <h3>Font-Weight Property</h3>
+    <p class="font-weight-property-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, iste? Necessitatibus ex dolorem, consectetur omnis illum doloribus exercitationem optio.</p>
+    <p class="font-weight-property-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, iste? Necessitatibus ex dolorem, consectetur omnis illum doloribus exercitationem optio.</p>
+    <h3>Font-Size Property</h3>
+    <p class="font-size-property-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, iste? Necessitatibus ex dolorem, consectetur omnis illum doloribus exercitationem optio.</p>
+    <p class="font-size-property-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, iste? Necessitatibus ex dolorem, consectetur omnis illum doloribus exercitationem optio.</p>
+    <h3>Font-Style Property</h3>
+    <p class="font-style-property-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, iste? Necessitatibus ex dolorem, consectetur omnis illum doloribus exercitationem optio.</p>
+    <p class="font-style-property-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, iste? Necessitatibus ex dolorem, consectetur omnis illum doloribus exercitationem optio.</p>
+    <h3>Font-Variant Property</h3>
+    <p class="font-variant-property-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, iste? Necessitatibus ex dolorem, consectetur omnis illum doloribus exercitationem optio.</p>
+    <p class="font-variant-property-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, iste? Necessitatibus ex dolorem, consectetur omnis illum doloribus exercitationem optio.</p>
+    </div>
+    <br><hr>
+
+    <h1>Background Properties</h1>
+    <div class="background-container">
+    <div class="background-property"></div>
+    <h3>Background-color Property</h3>
+    <p class="background-property-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, iste? Necessitatibus ex dolorem, consectetur omnis illum doloribus exercitationem optio.</p>
+    <h3>Background-image Property</h3>
+    <div class="background-property-2"></div>
+    <h3>Background-repeat Property</h3>
+    <div class="background-property-3"></div>
+    <h3>Background-size Property</h3>
+    <div class="background-property-4"></div>
+    <h3>Background-position Property</h3>
+    <div class="background-property-5"></div>
+    </div>
+    <br><hr>
+
+    <h1>Pseudo Classes</h1>
+    <div class="pseudo-classes-container">
+        <ul class="unorderlist-1">
+            <li>First Child</li>
+            <li>Last Child</li>
+        </ul>
+    
+        <ul class="unorderlist-2">
+            <li>First</li>
+            <li>Second</li>
+            <li>Third</li>
+        </ul>   
+    </div>
+    <br><hr>
+
+    <h1>Combinators</h1>
+    <div class="Combinator-container">
+    <h3>Descendant Selector</h3>
+    <div class="combinator-1">
+        <p>Paragraph 1 in div</p>
+        <p>Paragraph 2 in div</p>
+        <section><p>Paragraph 3 in div</p></section>  
+    </div>
+    <p>Paragraph 4 not in div</p>
+    <hr>
+
+    <h3>Child Selector</h3>
+    <div class="combinator-2">
+        <p>Paragraph 1 in div</p>
+        <p>Paragraph 2 in div</p>
+        <section><p>Paragraph 3 in div (Not Child but Descendant)</p></section>
+        <p>Paragraph 4 in div</p>
+    </div>
+    <p>Paragraph 5 not in div</p>
+    <hr>
+
+    <h3>General Sibling Selector</h3>
+    <div class="combinator-3">
+        <p>Paragraph 1 in div</p>
+        <p>Paragraph 2 in div</p>
+    </div>
+    <p>Paragraph 3 not in div</p>
+    <p>Paragraph 4 not in div</p>
+    <hr>
+
+    <h3>Adjacent Sibling Selector</h3>
+    <div class="combinator-4">
+        <p>Paragraph 1 in div</p>
+    </div>
+    <p>Paragraph 2 not in div</p>
+</div>
+
+
+
+    
+    </div>
+    <br><hr>
+
+    <h1>Attribute Selectors</h1>
+    <div class="attribute-selector-container">
+        <a href="#" class="attribute-selector-1" >a[attribute]</a><br>
+        <a href="#" class="attribute-selector-2" >a[attribute="value"]</a><br>
+        <a href="#" class="attribute-selector-3-test" >[attibute$="value"]</a><br>
+        <a href="#" class="test-attribute-selector-4" >[attibute^="value"]</a><br>
+        <input type="input" name="attribute-selector-5" class="attribute-selector-5">
+    </div>
+    <br><hr>
+</body>
+</html>

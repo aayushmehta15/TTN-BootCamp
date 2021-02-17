@@ -1,0 +1,190 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    background-color: blue;
+    color: whitesmoke;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+    text-align: center;
+
+}
+.font-container,.background-container, .pseudo-classes-container,.Combinator-container, .attribute-selector-container{
+    background-color: silver;
+    padding: 30px;
+    border-radius: 0px 0px 10px 10px;
+}
+.background-container{
+    background-color: silver;
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+/********* Font Properties ************/
+/* font-family-property */
+.font-family-property-1
+{
+    font-family: sans-serif;
+    margin: 0px 0px 10px 0px;
+}
+.font-family-property-2
+{
+    font-family: monospace;
+    margin: 0px 0px 10px 0px;
+}
+
+/* font-weight-property */
+.font-weight-property-1
+{
+    font-weight: 100;
+    margin: 0px 0px 10px 0px;
+}
+.font-weight-property-2
+{
+    font-weight: 900;
+    margin: 0px 0px 10px 0px;
+}
+
+/* font-size-property */
+.font-size-property-1
+{
+    font-size: 10px;
+    margin: 0px 0px 10px 0px;
+}
+.font-size-property-2
+{
+    font-size: 15px;
+    margin: 0px 0px 10px 0px;
+}
+
+/* font-size-property */
+.font-style-property-1
+{
+    font-style: italic;
+    margin: 0px 0px 10px 0px;
+}
+.font-style-property-2
+{
+    font-style: normal;
+    margin: 0px 0px 10px 0px;
+}
+
+/* font-variant-property */
+.font-variant-property-1
+{
+    font-variant: small-caps;
+    margin: 0px 0px 10px 0px;
+}
+.font-family-property-2
+{
+    font-variant:normal;
+    margin: 0px 0px 10px 0px;
+}
+
+/********* Background Properties ************/
+/* background-color property*/
+.background-property-1
+{
+    background-color: red;
+    margin: 0px 0px 10px 0px;
+}
+/* background-image property*/
+.background-property-2
+{
+    background-image: url("./images/greatplacetowork.jpeg");
+    width: 300px;
+    height: 100px;
+    margin: 0px 0px 10px 0px;
+} 
+/* background-repeat property*/
+.background-property-3
+{
+    background-image: url("./images/random.jpeg");
+    background-repeat: repeat;
+    width: 200px;
+    height: 200px;
+    margin: 0px 0px 10px 0px;
+}   
+/* background-size property*/
+.background-property-4
+{
+    background-image: url("./images/random.jpeg");
+    background-repeat: no-repeat;
+    background-size: 300px 200px;
+    width: 300px;
+    height: 200px;
+    margin: 0px 0px 10px 0px;
+}
+/* background-position property*/
+.background-property-5
+{
+    background-image: url("./images/random.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100px;
+    margin: 0px 0px 10px 0px;
+}   
+/* *********************Pseudo Classes******************************* */
+ul:first-child{
+    color:red;
+}
+ul.unorderlist-1::after{
+    content: " [::after selector used on unorderlist-1] ";
+}
+ul.unorderlist-2::before{
+    content: " [::before selector used on unorderlist-2] "
+}
+ul.unorderlist-2 li:hover{
+    color:orange;
+}
+ul.unorderlist-2 li::first-letter{
+    color: green;
+}
+
+/* *********************Combinator Classes******************************* */
+/* Descendant Selector*/
+div.combinator-1 p{
+    color:red;
+}
+/* Child Selector */
+div.combinator-2 > p{
+    font-weight: bold;
+    color: green;
+}
+/* General Sibling Selector */
+div.combinator-3 ~ p{
+    color:yellow;
+}
+/* Adjacent Sibling Selector */
+div.combinator-4 + p{
+    color: orange;
+}
+
+
+/* ******************************Attribute Selector************************************** */
+
+a[href]{
+    text-decoration: none;
+    color:red;
+    font-size: 20px;
+}
+a[class ="attribute-selector-2"]
+{
+    color:green;
+}
+a[class $="-test"]{
+    color:orange;
+}
+a[class^="test"]{
+    color:saddlebrown;
+}
+[class*="selector-5"]{
+    padding: 10px;
+    border-radius: 5px;
+    border:1px solid grey;
+    margin-top: 10px;
+}
