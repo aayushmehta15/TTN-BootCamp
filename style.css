@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.container{
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
 .nav-container{
     margin: 0 auto;
     position: relative;
@@ -16,7 +21,7 @@
     background-color: #f8f8f8;
 }
 .primary-ul{
-    display: flex; 
+    display: inline-flex; 
     list-style: none;
 }
 .primary-ul li > a{
@@ -35,7 +40,7 @@
 }
 /* primary nav icons */
 .primary-nav-icon{
-    display: flex;
+    display: inline-flex;
     list-style: none;
     padding: 5px 10px;
 }
@@ -58,7 +63,7 @@
     height: 100px;
 }
 .secondary-ul{
-    display: flex;
+    display: inline-flex;
     list-style: none;
     align-items: center;
 }
@@ -94,7 +99,7 @@
     
 }
 .main-nav-ul{
-    display: flex;
+    display: inline-flex;
     list-style: none;
     padding:20px 0px 10px 0px;
     margin: 0 auto ;
