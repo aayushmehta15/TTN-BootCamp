@@ -1,0 +1,197 @@
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.header-container{
+    background: linear-gradient(180deg,rgba(121,121,133,0.8), rgba(0,0,0,0.9)),url("./assets/jonathan-riley-VW8MUbHyxCU-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 110vh;
+    /* max-height: 550px; */
+    /* height: 550px; */
+    padding: 40px; 
+    position: relative;  
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    color:#fff ;
+}
+.nav-container h4{
+    font-size: 1.2rem;
+
+}
+.menu li{
+    display: inline-flex;
+    padding: 0 20px;
+    list-style: none;
+}
+.menu li a{
+    color: #fff;
+}
+.toggle{
+    display: none;
+}
+.menu .closebtn{
+    display: none;
+}
+hr{
+    margin-top: 40px;
+    background-color: #c0b9b9;
+    border:1px solid #c0b9b9;
+    border-radius: 2px; 
+}
+/* Middle section of Image*/
+.middle-section{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    margin: 60px 0;
+}
+.inner-title h2{
+    color: #fff;
+    text-align: center;
+    padding-bottom: 30px;
+    font-family:monospace;
+    font-size: 2.0rem;
+    font-weight: lighter;
+}
+.inner-content{
+    display:flex;
+    justify-content: center;
+
+}
+.inner-content ul{
+    list-style: none;
+    padding: 8px 50px;
+    border-right: 2px solid #d3d3d3;
+    color: #fff;
+    line-height: 1.5rem;
+}
+.inner-content ul:last-child{
+    border: none;
+}
+.inner-content ul li{
+    text-align: center;
+}
+.text1
+{
+    font-weight: bolder;
+    font-size: 1rem;
+    
+}
+.text2
+{
+    font-weight: bolder;
+    font-size: 0.6rem;
+    color: #a7a6b4;
+}
+.inner-btn{ 
+    display: block;
+    margin-top: 50px;
+    text-align: center;
+}
+.inner-btn a{
+    border: 3px  solid #7abb99;
+    border-radius: 40px ;
+    color: #7abb99;
+    padding:10px 40px;
+    text-align: center;
+}
+.inner-btn a:hover{
+    background-color: #7abb99;
+    color: #fff;
+}
+/* Main Content */
+.main-content{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+
+.main-content div{
+    display: inline-flex;
+}
+.main-content .content-1,
+.main-content .content-2
+{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.main-content .content-1 span{
+    background: url('./assets/georgia-de-lotz-0tRhUZKg_88-unsplash.jpg');
+    filter: grayscale(100%);
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+    border-radius:100px;
+    margin:  50px 0px 10px 0px;
+    
+}
+
+.main-content .content-2 span{
+    background:url('./assets/daniele-levis-pelusi-TDpLnlSi2Ys-unsplash.jpg');
+    filter: grayscale(100%);
+    background-position: center;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius:200px;
+    margin: 50px 0px 10px 0px;
+    
+}
+
+.content-1 h2,
+.content-2 h2{
+    font-weight: 400;
+    width: 200px;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #5e5e5e;
+}
+.content-1 p,
+.content-2 p{
+    text-align: center;
+    margin-top: 30px;
+    width: 300px;
+    color:#c0b9b9;
+    font-size: 0.8rem;
+    
+
+}
+.learn-btn{
+    border: 3px  solid #7abb99;
+    border-radius: 40px ;
+    color: #7abb99;
+    padding:10px 40px;
+    margin-top: 40px;
+    
+}
+.learn-btn:hover{
+    background-color: #7abb99;
+    color: #fff;
+}

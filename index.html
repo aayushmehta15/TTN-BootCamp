@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:425px) and (min-width:350px)" href="mobile.css">
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="tablet.css">
+    <script>
+        /* Set the width of the sidebar to 250px (show it) */
+        function OpenNav()
+        {
+            document.getElementById("side-menu").style.width = "250px";
+        }
+        /* Set the width of the sidebar to 0 (hide it) */
+        function CloseNav()
+        {
+            document.getElementById("side-menu").style.width = "0";
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <!-- Header  -->
+        <div class="header-container">
+            <div class="nav-container">
+                <h4>Responsive Layout</h4>
+                <div class="nav-bar">
+                    <span class="toggle" onclick="OpenNav()"></span>
+                    <ul id="side-menu" class="menu">
+                        <li><a href="javascript:void(0)" class="closebtn" onclick="CloseNav()">&times;</a></li>
+                        <li><a href="#" class="item">Home</a></li>
+                        <li><a href="#" class="item">Generic</a></li>
+                        <li><a href="#" class="item">Element</a></li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+            <hr> 
+            <div class="middle-section">
+                <div class="inner-title">
+                    <h2>Welcome</h2>
+                </div>
+                <div class="inner-content">
+                    <ul>
+                        <li><img src="./assets/car.png" alt="car"></li>
+                        <li class="text1">Travel</li>
+                        <li class="text2">Choose a ride</li>
+                    </ul>
+                    <ul>
+                        <li><img src="./assets/photo-camera-black-tool.png" alt="car"></li>
+                        <li class="text1">Gallery</li>
+                        <li class="text2">Choose photos</li>
+                    </ul>
+                </div>
+                <div class="inner-btn">
+                    <a href="#">GET STARTED</a>
+                </div>
+            </div>   
+        </div>
+        <!-- Main content -->
+        <div class="main-content">
+            <div class="content-1">
+                <span></span>
+                <h2>Lorem ipsum dolor sit amet.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi officiis animi dolorum assumenda sunt eos!</p>
+                <a href="#" class="learn-btn">LEARN MORE</a>
+            </div>
+            <div class="content-2">
+                <span></span>
+                <h2>Lorem ipsum dolor sit amet.</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis possimus blanditiis sapiente sit repellat. Repudiandae.</p>
+                <a href="#" class="learn-btn">LEARN MORE</a>
+            </div>
+        </div>
+    </div>
+        
+</body>
+</html>

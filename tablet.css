@@ -1,0 +1,69 @@
+.header-container{
+    background: linear-gradient(180deg,rgba(121,121,133,0.8), rgba(0,0,0,0.9)),url("./assets/jonathan-riley-VW8MUbHyxCU-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    max-height: 550px;
+    height: 550px;
+    padding: 30px; 
+    position: relative;  
+}
+/* .item{
+    display: none;
+} */
+.nav-bar .toggle
+{
+    display: block;
+    background-image: url('./assets/menu.png');
+    width: 15px;
+    height: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-bar .menu{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    right: 0;
+    background-color: #7abb99;
+    overflow-x: hidden;
+    padding-top: 5px;
+    transition: 0.5s;
+}
+.nav-bar .menu li{
+    padding: 0px 10px 20px 10px;
+    display: block;
+}
+.nav-bar .menu li a{
+    padding: 8px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color:#fff;
+    display: block;
+    transition: 0.3s;
+}
+.nav-bar .menu li a:hover{
+    color: #f1f1f1;
+}
+.nav-bar .menu .item{
+    border-bottom: 1px solid  #f1f1f1;
+
+}
+.menu .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 1.2rem;
+    margin-left: 50px;
+}
+
+/* main  content*/
+.main-content{
+    flex-direction: column;
+    align-items: space-around;
+    flex-wrap: wrap;
+    padding: 80px 20px;
+}
