@@ -1,0 +1,226 @@
+/* Reset */
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+/* Container */
+.container{
+    width:100%;
+    max-width: 1400px;
+    margin:0 auto;
+}
+/* Header */
+.header-container{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),url("./assets/gabriel-garcia-marengo-a9nu_KeLdm8-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    
+}
+.header-content{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 600px;
+    height: 200px;
+}
+.header-content a{
+    background-color: #4c98dc;
+    color: #fff;
+    align-self: center;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+}
+
+/* Main-Section */
+.main-section{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main-Section-1 */
+.section-1{
+    display: inline-flex;
+    justify-content:space-around;
+    padding: 50px 20px 50px 30px;
+    background-color: #fafafa;
+}
+
+.section-1 .side-image-1
+{
+    background: url("./assets/alessio-lin-wfL200m3vUo-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 200px;
+    min-height: 200px;
+    border-radius:50%;
+    align-self: center;
+    margin-right: 10px;
+}
+
+.section-1 .side-image-content-1{
+    width: 80%;
+    text-align: justify;
+}
+
+.side-image-content-1 a{
+    display: inline-block;
+    background-color: #4c98dc;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Main-Section-2 */
+.section-2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:space-around;
+    padding: 50px 20px 50px 30px;
+    background-color: #4c98dc;
+}
+
+.section-2 .side-image-2{
+    background: url("./assets/sahin-sezer-dincer-dMfja4bS_90-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 200px;
+    min-height: 200px;
+    border-radius:50%;
+    align-self: center;
+    margin-left: 10px;
+}
+
+.section-2 .side-image-content-2{
+    width: 80%;
+    text-align: justify;
+    color: #fff;
+}
+
+.side-image-content-2 a{
+    display: inline-block;
+    background-color:   #fff;
+    color:#4c98dc;
+    padding: 10px;
+}
+
+/*Main-Section-3 */
+.section-3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: #fafafa;
+    padding: 50px 0 10px 0;
+}
+/* Sub Section of main-section-3 */
+.sub-section{
+    display: inline-flex;
+    justify-content: space-evenly;
+    padding: 50px 0 10px 0;
+    flex-wrap: wrap;
+}
+/* sub secion-1*/
+.sub-section-1{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 300px;
+    height: 300px;
+
+}
+.image-1{
+    background-image: url("./assets/karsten-winegeart-1MgX1KQcbj0-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.sub-section-1 a{
+    background-color: #4c98dc;
+    padding: 10px;
+    color:#fff;
+}
+/* sub secion-2 */
+.sub-section-2{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 300px;
+    height: 300px;
+
+}
+.sub-section-2 .image-2{
+    background-image: url("./assets/mak-V8osc3vsjiM-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 200px;
+    min-height:200px;
+    border-radius: 50%;
+}
+.sub-section-2 a{
+    background-color:#4c98dc ;
+    padding: 10px;
+    color: #fff;
+}
+/* sub secion-2 */
+.sub-section-3{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 300px;
+    height: 300px;
+
+}
+.sub-section-3 .image-3{
+    background-image: url("./assets/tim-gouw-yEV5Rx25mYQ-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 200px;
+    min-height:200px;
+    border-radius: 50%;
+}
+.sub-section-3 a{
+    background-color:#4c98dc ;
+    padding: 10px;
+    color: #fff;
+}
+
+/* footer */
+.footer-section
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    height: 100px; 
+}
+.icons a{
+    width: 25px;
+    height: 25px;
+}
+.twitter, .facebook, .instagram, .o-sign{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}

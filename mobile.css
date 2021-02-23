@@ -1,0 +1,59 @@
+/* Main Section-1 */
+.section-1{
+    display: inline-flex;
+    flex-direction: column;
+    background-color: #fafafa;
+}
+
+.section-1 .side-image-1
+{
+    background: url("./assets/alessio-lin-wfL200m3vUo-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 200px;
+    min-height: 200px;
+    border-radius:50%;
+}
+
+.section-1 .side-image-content-1{
+    text-align: justify;
+    align-self: center;
+}
+
+.side-image-content-1 a{
+    display: inline-block;
+    background-color: #4c98dc;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Main Section 2 */
+.section-2{
+    display: inline-flex;
+    flex-direction: column;
+    background-color: #4c98dc;
+}
+
+.section-2 .side-image-2
+{
+    background: url("./assets/sahin-sezer-dincer-dMfja4bS_90-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 200px;
+    min-height: 200px;
+    border-radius:50%;
+}
+
+.section-2 .side-image-content-2{
+    text-align: justify;
+    align-self: center;
+}
+
+.side-image-content-2 a{
+    display: inline-block;
+    background-color:#fff;
+    color:#4c98dc ;
+    padding: 10px;
+}
