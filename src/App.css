@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App{
+  background-color: burlywood;
+  width: 400px;
+  min-height: 500px;
+  margin:50px auto;
+  padding:10px;
+  line-height: 1.5rem;
+}
+
+input[type=text]{
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+  font-size: 0.9rem;
+}
+
+input[type="submit"]{
+  padding: 10px 50px;
+  font-size: 0.9rem;
+}
+
+th,table,td {
+  margin-top: 10px;
+  border: 1px solid black;
+  text-align: left;
+  border-collapse: collapse;
+  padding: 5px;
+  width: 400px;
+}
+th{
+  background-color: coral;
+  color:white;
+}
