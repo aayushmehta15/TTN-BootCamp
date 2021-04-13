@@ -1,0 +1,18 @@
+h1 {
+    margin: 10px;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 0.9rem;
+    width: 50%;
+}
+
+input[type="submit"] {
+    padding: 10px 50px;
+    font-size: 0.9rem;
+    margin: 10px;
+}
