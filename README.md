@@ -1,5 +1,7 @@
 # TTN-BootCamp
 
-## Branch Structure 
-### Date-SessionName
-Example: 11-02-2021-mean-IntroductionToJquery
+## MEAN BootCamp: 2021 | Branch Structure
+
+### MEAN BootCamp: 2021 
+- Branch Name - `19-04-21-mean-mongoose`
+- `19-04-21-mean-mongoose` : Understanding of mongoose(Basic CRUD) + Controller-services
