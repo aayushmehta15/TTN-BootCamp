@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Login page</title>
+    </head>
+    <body>
+        <h1>Login Page</h1>
+
+        <form action="/loginBtn" method="POST">
+            <input type="email" name="email" placeholder="Email" /><br /><br />
+
+            <input
+                type="password"
+                name="password"
+                placeholder="Password"
+            /><br /><br />
+
+            <input type="submit" value="Login" /><br /><br />
+        </form>
+
+        <form action="/signup" method="GET">
+            <input type="submit" value="SignUp" /><br /><br />
+        </form>
+
+        <form action="/auth/facebook" method="GET">
+            <input type="submit" value="Sign In with Facebook" /><br /><br />
+        </form>
+    </body>
+</html>

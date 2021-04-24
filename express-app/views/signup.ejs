@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>SignUp page</title>
+    </head>
+    <body>
+        <h1>SIGNUP PAGE</h1>
+
+        <form action="/signupBtn" method="POST">
+            <input
+                type="text"
+                name="name"
+                placeholder="User Name"
+            /><br /><br />
+            <input type="email" name="email" placeholder="Email" /><br /><br />
+            <input
+                type="password"
+                name="password"
+                placeholder="Password"
+            /><br /><br />
+            <input type="submit" /> <br /><br />
+            <!-- <a href="/facebookSignup">SignUp Using Facebook</a> -->
+        </form>
+
+        <form action="/login">
+            <input
+                type="submit"
+                value="Already have an Account ?"
+            /><br /><br />
+        </form>
+
+        <form action="/auth/facebook" method="GET">
+            <input type="submit" value="Signup with Facebook" /><br /><br />
+        </form>
+    </body>
+</html>
